@@ -14,10 +14,6 @@ public class AddTaskActivity extends AppCompatActivity {
 
     EditText mEditTextName;
 
-
-
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
