@@ -5,7 +5,7 @@ public class Task {
     public static final String COLLECTION_NAME = "tasks";
     private String id;
     private String name;
-    private String description;
+//    private String description;
     private Boolean done;
 
     public Task(){}
@@ -40,11 +40,11 @@ public class Task {
         this.done = done;
     }
 
-    public String getDescription() {
-        return description;
-    }
-
-    public void setDescription(String description) {
-        this.description = description;
-    }
+//    public String getDescription() {
+//        return description;
+//    }
+//
+//    public void setDescription(String description) {
+//        this.description = description;
+//    }
 }
